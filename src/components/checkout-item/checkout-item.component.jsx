@@ -22,7 +22,7 @@ const CheckoutItem = ({ cartItem, clearItem, addItem, removeItem }) => {
     <span className="price">{price}</span>
     <div className="remove-button" onClick={() => clearItem(cartItem)}>&#10005;</div>
   </div>
-  )
+  );
 };
 
 const mapDispatchToProps = dispatch => ({
